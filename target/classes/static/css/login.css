@@ -75,6 +75,8 @@ color: #fff;
 font-family: Calibri, Verdana, Arial, sans-serif;
 font-size: 18px;
     font-size: 1vw;
+       position: static;
+  width: 100px;
 outline: none;
 padding: 3px 10px;
 }

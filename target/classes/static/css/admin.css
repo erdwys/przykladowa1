@@ -4,42 +4,48 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 2017-12-23, 12:07:40
+    Created on : 2017-12-24, 14:03:16
     Author     : Filip
 */
-
-
 body {
 
-    padding-top: 125px;
-
-    padding-bottom: 40px;
-
-    background-color: lightslategrey;
+    background: lightsteelblue;
 
 }
-#box {
-   position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 60%;
-    height: 30%;
-    margin: auto;
-  
-  background: lightsteelblue;
-  border-radius: 1em;
-  border: 3px solid #3276B1;
+.navbar-inverse {
+
+   
+    background-color: #11274C;
 
 }
 
-h1{
-    font-size: 2.5vw;
 
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+       left: 0;
+    text-align: center;
+    margin:0 auto;
 }
-p{
-    font-size: 1.5vw; 
+
+.navbar-collapse
+{
+    position: absolute;
+    width: 100%;
+         left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+.form{
+        position: absolute;
+    width: 100%;
+        right: 0;
+    text-align: center;
+    margin:0 auto;
+    
 }
 
 .button1 {
